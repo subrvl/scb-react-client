@@ -1,0 +1,20 @@
+.formControl {
+  border: 0;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  background: rgba(134, 183, 254, 0.35);
+}
+.formControl.elem {
+  width: 7.2%;
+  padding: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+.inputBlock {
+  padding: 15px 0 0;
+}
+#review {
+    position: absolute;
+    left: 17%;
+    top:13%;
+}

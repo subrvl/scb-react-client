@@ -1,0 +1,61 @@
+export const SideBarData = [
+  {
+    title: "Home",
+    path: "/home",
+    icon: "icons/home-sidebar.svg",
+  },
+  {
+    title: "Dashboard",
+    path: "/dashboard",
+    icon: "icons/dashboard.svg",
+  },
+  {
+    title: "Company Details",
+    path: "/company",
+    icon: "icons/company-card.svg",
+    barText: "100%",
+    barBgColor: "#00b440",
+  },
+  {
+    title: "Accounts",
+    path: "/accounts",
+    icon: "icons/accounts-card.svg",
+    barText: "80%",
+    barBgColor: "#ff9200",
+  },
+  {
+    title: "Signatories",
+    path: "/signatories",
+    icon: "icons/signatories-card.svg",
+    barText: "80%",
+    barBgColor: "#ff9200",
+  },
+  {
+    title: "Online Banking",
+    path: "/online",
+    icon: "icons/online-card.svg",
+    barText: "0%",
+    barBgColor: "#ff3e4a",
+  },
+  {
+    title: "General Forms",
+    path: "/general",
+    icon: "icons/general-forms.svg",
+    barText: "0%",
+    barBgColor: "#ff3e4a",
+  },
+  {
+    title: "Documents",
+    path: "/documents",
+    icon: "icons/docs-card.svg",
+    barText: "0%",
+    barBgColor: "#ff3e4a",
+  },
+  {
+    title: "Review & Submit",
+    path: "/review",
+    icon: "icons/submit-card.svg",
+    barText: "0%",
+    barBgColor: "#ff3e4a",
+  },
+];

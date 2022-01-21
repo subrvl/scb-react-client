@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 3.5rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.item {
+  margin: 1.2rem;
+}
+
+.image {
+  width: 120px;
+  height: 50px;
+}
+

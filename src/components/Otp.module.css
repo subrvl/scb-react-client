@@ -1,0 +1,61 @@
+.containerpart { position: relative; height: 100vh; background: #f0f7fd 0% 0% no-repeat padding-box;}
+.containerpart .otpPart { z-index: 9999; position: absolute; text-align: center; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100%;}
+.containerpart .otpPart .maincard { width: 800px; height: auto; background: #f1f1f1 0% 0% no-repeat padding-box; box-shadow: 0px 3px 6px #00000029; border: 1px solid #f8f8f8; border-radius: 8px; z-index: 1000; margin: 0 auto;}
+.containerpart .otpPart .maincard .img { width: 210px; height: 80px; text-align: left; display: block;}
+.containerpart .otpPart .maincard .headline { padding: 35px 0 10px 0; margin: 0 auto; color: #0150a6; font-size: 28px;}
+.containerpart .otpPart .maincard .para1 { font-size: 16px; letter-spacing: 0px; color: #1f1f1f; max-width: 540px; margin: 0 auto; font-weight: 500;}
+.containerpart .otpPart .maincard .para2 { font-weight: normal; font-size: 22px; letter-spacing: 0px; color: #1f1f1f; opacity: 1;}
+.containerpart .otpPart .maincard .otplabel { margin: 30px 0 20px; display: block; text-decoration: underline; font-size: 24px; color: #0150a6; font-weight: 600;}
+.containerpart .otpPart .maincard .otpTop{ position: relative; width: 390px; margin: 0 auto;}
+.containerpart .otpPart .maincard .inputText:focus ~ .floatingLabel,
+.containerpart .otpPart .maincard .inputText:not(:focus):valid ~ .floatingLabel{ top: 8px; bottom: 10px; left: 20px; font-size: 11px; opacity: 1;}
+.containerpart .otpPart .maincard .inputText { font-size: 17px; width: 390px; height: 60px; border: 1px solid #cdd4d9; border-radius: 8px; padding: 0 20px; margin: 10px 0;}
+.containerpart .otpPart .maincard .floatingLabel { position: absolute; pointer-events: none; left: 20px; top: 18px; transition: 0.2s ease all;}
+.containerpart .otpPart .maincard .ctrl { padding: 30px 0;}
+.containerpart .otpPart .maincard .ctrl button { width: 120px; height: 48px; border-radius: 30px; font-size: 18px; }
+.containerpart .otpPart .maincard .cancel { color: #0473ea; background: #ffffff 0% 0% no-repeat padding-box; border: 1px solid #0473ea; margin: 0 20px 0 0;}
+.containerpart .otpPart .maincard .submit { color: #ffffff; background: #0473ea; border: 1px solid #0473ea;}
+.containerpart .otpPart .maincard span { color: #0150A6; font-size: 18px; text-align: left; max-width: 390px; margin: 0 auto; display: block; font-weight: 500;}
+.containerpart .otpPart .maincard span a { text-decoration: underline !important; color: #0150A6;}
+
+@media (max-width:1366px) and (orientation : landscape) {
+  }
+  
+  @media (max-width:1280px) {
+  
+  }
+  
+  @media (max-width:1199px) {
+    .containerpart .otpPart { top: 30%;}
+  }
+  
+  @media (max-width:991px){
+    .containerpart .otpPart .maincard { width: auto;}
+  }
+  
+  @media (max-width:767px) {
+    .containerpart .otpPart { top: 50%;}
+    .containerpart .otpPart .maincard .otpTop{ width: auto;}
+    .containerpart .otpPart .maincard .inputText { width: 100%;}
+  }
+  
+  @media (max-width:560px) {
+  } 
+  
+  
+  @media (max-width: 470px) {
+  }
+  
+  @media (min-height:900px) {
+  }
+  
+  @media (min-height:1100px) {
+  }
+  
+  @media only screen and (min-device-width: 480px)  and (max-device-width: 736px)  and (orientation: landscape) {
+  
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 823px) and (orientation: landscape) {
+  
+  
+  }

@@ -1,0 +1,14 @@
+.container {
+    background-color: #fff;
+    width: 81vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99999999;
+    padding: 20px 0;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
+    
+}
+.button-group { text-align: right;}
+.button-group .btn { width: 115px; height: 42px; font-size: 18px; text-align: center; padding: 10px 34px;}
+

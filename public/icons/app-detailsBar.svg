@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1593" height="126" viewBox="0 0 1593 126">
+  <defs>
+    <filter id="FAB_Mask" x="623" y="18.777" width="55" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="FAB_Mask-2" x="1121.5" y="18.027" width="58.944" height="58.944" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="FAB_Mask-3" x="1125.294" y="21.815" width="51.369" height="51.369" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="FAB_Mask-4" x="861" y="18.777" width="55" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_163213" data-name="Group 163213" transform="translate(-305 -158)">
+    <rect id="Rectangle_148188" data-name="Rectangle 148188" width="1593" height="126" transform="translate(305 158)" fill="#faf8f8"/>
+    <path id="Path_1" data-name="Path 1" d="M570,0" transform="translate(691.999 203.777)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="2"/>
+    <g id="Group_163220" data-name="Group 163220" transform="translate(-18)">
+      <g id="Group_163219" data-name="Group 163219">
+        <g id="Component_1_9" data-name="Component 1 – 9" transform="translate(737.399 204.277)">
+          <line id="Line_162" data-name="Line 162" x2="233.167" fill="none" stroke="#38d200" stroke-linecap="square" stroke-width="3"/>
+        </g>
+        <g id="Group_163214" data-name="Group 163214" transform="translate(-6)">
+          <text id="Contact_Details" data-name="Contact Details" transform="translate(1040 247.473)" fill="#0b2148" font-size="18" font-family="Helvetica"><tspan x="-122" y="0">Contact Details</tspan></text>
+          <g id="FAB_Mask-5" data-name="FAB Mask" transform="translate(966 190.777)">
+            <g transform="matrix(1, 0, 0, 1, -637, -32.78)" filter="url(#FAB_Mask)">
+              <rect id="FAB_Mask-6" data-name="FAB Mask" width="24" height="24" rx="12" transform="translate(638.5 33.28)" fill="#f8f8f8" stroke="#38d200" stroke-width="1"/>
+            </g>
+            <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M27.406,13.906a13.5,13.5,0,1,1-13.5-13.5A13.5,13.5,0,0,1,27.406,13.906ZM12.345,21.054,22.361,11.038a.871.871,0,0,0,0-1.232L21.129,8.575a.871.871,0,0,0-1.232,0l-8.169,8.168L7.915,12.93a.871.871,0,0,0-1.232,0L5.452,14.161a.871.871,0,0,0,0,1.232l5.661,5.661A.871.871,0,0,0,12.345,21.054Z" transform="translate(-0.406 -0.406)" fill="#38d200"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_163217" data-name="Group 163217" transform="translate(-15)">
+        <g id="Component_1_10" data-name="Component 1 – 10" transform="translate(1239.977 204.277)">
+          <line id="Line_162-2" data-name="Line 162" x2="233" fill="none" stroke="#0150a6" stroke-linecap="square" stroke-width="3"/>
+        </g>
+        <g id="Group_163216" data-name="Group 163216">
+          <text id="Business_Reqiurement" data-name="Business Reqiurement" transform="translate(1489 247.473)" fill="#0b2148" font-size="18" font-family="Helvetica"><tspan x="-90" y="0">Business Reqiurement</tspan></text>
+          <g id="FAB_Mask-7" data-name="FAB Mask" transform="translate(1475 190.527)">
+            <g id="Group_4" data-name="Group 4">
+              <g transform="matrix(1, 0, 0, 1, -1137, -32.53)" filter="url(#FAB_Mask-2)">
+                <rect id="FAB_Mask-8" data-name="FAB Mask" width="27.944" height="27.944" rx="13.972" transform="translate(1137 32.53)" fill="#f8f8f8" stroke="#0150a6" stroke-width="1"/>
+              </g>
+              <g transform="matrix(1, 0, 0, 1, -1137, -32.53)" filter="url(#FAB_Mask-3)">
+                <rect id="FAB_Mask-9" data-name="FAB Mask" width="21.369" height="21.369" rx="10.685" transform="translate(1140.29 35.81)" fill="#0150a6"/>
+              </g>
+              <path id="Icon_open-lock-locked" data-name="Icon open-lock-locked" d="M4.6,0A3.077,3.077,0,0,0,1.534,3.068V4.6H0v6.136H9.2V4.6H7.67V3.068A3.077,3.077,0,0,0,4.6,0Zm0,1.534A1.519,1.519,0,0,1,6.136,3.068V4.6H3.068V3.068A1.519,1.519,0,0,1,4.6,1.534Z" transform="translate(9.37 8.603)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_163213-2" data-name="Group 163213" transform="translate(-4)">
+        <text id="Applicant_Info" data-name="Applicant Info" transform="translate(788 247.473)" fill="#0b2148" font-size="18" font-family="Helvetica"><tspan x="-109" y="0">Applicant Info</tspan></text>
+        <g id="Group_65" data-name="Group 65" transform="translate(720 191)">
+          <circle id="Ellipse_2" data-name="Ellipse 2" cx="13" cy="13" r="13" transform="translate(1 1)" fill="#f8f8f8"/>
+          <path id="Icon_awesome-check-circle-2" data-name="Icon awesome-check-circle" d="M27.406,13.906a13.5,13.5,0,1,1-13.5-13.5A13.5,13.5,0,0,1,27.406,13.906ZM12.345,21.054,22.361,11.038a.871.871,0,0,0,0-1.232L21.129,8.575a.871.871,0,0,0-1.232,0l-8.169,8.168L7.915,12.93a.871.871,0,0,0-1.232,0L5.452,14.161a.871.871,0,0,0,0,1.232l5.661,5.661A.871.871,0,0,0,12.345,21.054Z" transform="translate(-0.406 -0.406)" fill="#38d200"/>
+        </g>
+      </g>
+      <g id="Group_163218" data-name="Group 163218">
+        <g id="Component_1_11" data-name="Component 1 – 11" transform="translate(981.399 204.277)">
+          <line id="Line_162-3" data-name="Line 162" x2="233" fill="none" stroke="#38d200" stroke-linecap="square" stroke-width="3"/>
+        </g>
+        <g id="Group_163215" data-name="Group 163215" transform="translate(-26)">
+          <text id="Types_of_Company" data-name="Types of Company" transform="translate(1309 247.473)" fill="#0b2148" font-size="18" font-family="Helvetica"><tspan x="-150" y="0">Types of Company</tspan></text>
+          <g id="FAB_Mask-10" data-name="FAB Mask" transform="translate(1224 190.777)">
+            <g transform="matrix(1, 0, 0, 1, -875, -32.78)" filter="url(#FAB_Mask-4)">
+              <rect id="FAB_Mask-11" data-name="FAB Mask" width="24" height="24" rx="12" transform="translate(876.5 33.28)" fill="#f8f8f8" stroke="#38d200" stroke-width="1"/>
+            </g>
+            <path id="Icon_awesome-check-circle-3" data-name="Icon awesome-check-circle" d="M27.406,13.906a13.5,13.5,0,1,1-13.5-13.5A13.5,13.5,0,0,1,27.406,13.906ZM12.345,21.054,22.361,11.038a.871.871,0,0,0,0-1.232L21.129,8.575a.871.871,0,0,0-1.232,0l-8.169,8.168L7.915,12.93a.871.871,0,0,0-1.232,0L5.452,14.161a.871.871,0,0,0,0,1.232l5.661,5.661A.871.871,0,0,0,12.345,21.054Z" transform="translate(-0.406 -0.406)" fill="#38d200"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
