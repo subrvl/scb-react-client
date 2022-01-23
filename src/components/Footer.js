@@ -87,7 +87,7 @@ export default () => {
             color: "#11863C",
           }}
         >
-          Save
+          {pathname === "/review" ? 'Download' : 'Save' }
         </button>
         <button
           onClick={nextClicked}
