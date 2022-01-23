@@ -7,35 +7,32 @@ export default ({ setHeader }) => {
   const url = "http://localhost:8080/";
   const [otp, setOtp] = useState("");
   let navigate = useNavigate();
-  let otpStatus = false;
 
   const generateOtp = async () => {
     try {
-      const response = await axios.get(url + "otp/user1");
-      const { otpSendStatus } = await response.data;
-      otpStatus = otpSendStatus;
-    } catch(error) {
-      alert('Error Occured - ', error);
+      const response = await axios.get(url + "genOtp");
+      const { status } = await response.data;
+      status !== "success" && alert("Otp generation failed");
+    } catch (error) {
+      alert("Error Occured - ", error);
     }
   };
 
   const onSubmit = async () => {
     if (!otp || isNaN(otp)) {
-      alert('OPT is invalid')
+      alert("OPT is invalid");
       return;
     }
-   
-    // const response = await axios.post(url + "validateOtp", {
-    //   userId: "user1",
-    //   oneTimeOtp: otp,
-    // });
-    // const { validationStatus } = await response.data;
-    // if (!validationStatus) {
-    //   alert('OPT is invalid');
-    //   return;
-    // }
-    navigate("/home");
+
+    const response = await axios.post(url + "valOtp", {
+      otp,
+    });
+    const { status } = await response.data;
+    alert(status)
+
+    status !== "success" ? alert("OPT is invalid") : navigate("/home");
   };
+
   return (
     <div className={`${css.containerpart}`}>
       <div className={`${css.otpPart}`}>
@@ -63,7 +60,10 @@ export default ({ setHeader }) => {
             />
           </div>
           <span>
-            00 : 00 to <a onClick={generateOtp} href="#">resend OTP</a>
+            00 : 00 to{" "}
+            <a onClick={generateOtp} href="#">
+              resend OTP
+            </a>
           </span>
           <div className={`${css.ctrl}`}>
             <button className={`${css.cancel}`}>Cancel</button>
