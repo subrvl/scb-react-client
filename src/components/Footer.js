@@ -13,7 +13,8 @@ export default () => {
           return;
       }
     const response = await axios({
-      url: "http://localhost:3001/pdf",
+      // url: "http://10.246.88.211:8080/pdf",
+      url: "http://localhost:8080/pdf",
       method: "GET",
       responseType: "blob",
     });
