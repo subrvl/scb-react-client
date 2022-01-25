@@ -52,7 +52,7 @@ export const SideBarData = [
     barBgColor: "#ff3e4a",
   },
   {
-    title: "Review & Submit",
+    title: "Primary Contact",
     path: "/review",
     icon: "icons/submit-card.svg",
     barText: "0%",

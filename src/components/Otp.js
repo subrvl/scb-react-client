@@ -14,7 +14,7 @@ export default ({ setHeader }) => {
       const { status } = await response.data;
       status !== "success" && alert("Otp generation failed");
     } catch (error) {
-      alert("Error Occured - ", error);
+      console.log("Error Occured - ", error);
     }
   };
 
@@ -28,8 +28,7 @@ export default ({ setHeader }) => {
       otp,
     });
     const { status } = await response.data;
-    alert(status)
-
+    
     status !== "success" ? alert("OPT is invalid") : navigate("/home");
   };
 
