@@ -47,7 +47,7 @@ export default ({ setHeader }) => {
             Click to generate OTP
           </a>
           <div className={`${css.para2}`}>
-            This will be sent to the number associated with your account
+            This will be sent to the email associated with your account
           </div>
           <div className={`${css.otpTop}`}>
             <input
